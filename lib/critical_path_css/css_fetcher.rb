@@ -17,7 +17,7 @@ module CriticalPathCss
       options = {
         'url' => @config.base_url + route,
         'css' => @config.path_for_route(route),
-        'width' => 1300,
+        'width' => 1000,
         'height' => 900,
         'timeout' => 30_000,
         # CSS selectors to always include, e.g.:
